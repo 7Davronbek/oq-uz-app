@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  
+  name: 'ApHelloWorld'
 }
 </script>
 <style lang="HelloWorld">
