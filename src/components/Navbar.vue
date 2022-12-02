@@ -4,7 +4,6 @@
             <div class="row">
                 <div class="col-3">
                     <router-link to="/" class="logo">
-                        qweqe
                         <img src="assets/image/logo.svg" alt="oq" />
                     </router-link>
                 </div>
