@@ -4,6 +4,7 @@
   <Navbar />
   <Header />
   <FourSteps />
+  <AboutApp />
 
   <!-- <router-view /> -->
 </template>
@@ -12,13 +13,15 @@
 import Navbar from './components/Navbar.vue';
 import Header from './components/Header.vue';
 import FourSteps from './components/FourSteps.vue';
+import AboutApp from './components/AboutApp.vue';
 
 export default {
   name: 'App',
   components: {
     Navbar,
     Header,
-    FourSteps
+    FourSteps,
+    AboutApp
   }
 }
 </script>
