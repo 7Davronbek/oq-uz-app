@@ -1,7 +1,7 @@
 <template lang="Navbar">
     <div class="Navbar">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-3">
                     <router-link to="/" class="logo">
                         <img src="assets/image/logo.svg" alt="oq" />
@@ -23,5 +23,17 @@ export default {
 </script>
 <style lang="scss">
 .Navbar {
+    padding: 30px 0;
+
+    .myBtn {
+        font-family: 'Gilroy-normal';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        padding: 15px 25px;
+    }
 }
 </style>

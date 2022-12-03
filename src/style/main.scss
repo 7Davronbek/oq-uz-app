@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Gilroy-bold';
+    src: url("../assets/fonts/Gilroy-Bold.ttf") format("truetype");
+}
+
+.bold {
+    // font-weight: 600;
+    font-family: 'Gilroy-bold';
+}
+
+@font-face {
+    font-family: 'Gilroy-normal';
+    src: url("../assets/fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+.normal {
+    // font-weight: 600;
+    font-family: 'Gilroy-normal';
+}
+
+body {
+    font-family: 'Gilroy-normal';
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin-bottom: 0;
+    }
+
+    img {
+        user-select: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+        outline: none !important;
+
+        &:hover {
+            text-decoration: none !important;
+            color: #666;
+        }
+    }
+
+    ul,
+    li {
+        list-style: none;
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    .card {
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+
+        .card-body {
+            background-color: transparent;
+            border: 0;
+            padding: 0;
+        }
+    }
+}
