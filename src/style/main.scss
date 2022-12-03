@@ -9,17 +9,27 @@
 }
 
 @font-face {
-    font-family: 'Gilroy-normal';
+    font-family: 'Gilroy';
     src: url("../assets/fonts/Gilroy-Medium.ttf") format("truetype");
 }
 
 .normal {
     // font-weight: 600;
-    font-family: 'Gilroy-normal';
+    font-family: 'Gilroy';
+}
+
+@font-face {
+    font-family: 'Gilroy-light';
+    src: url("../assets/fonts/Gilroy-Light.ttf") format("truetype");
+}
+
+.light {
+    // font-weight: 600;
+    font-family: 'Gilroy-light';
 }
 
 body {
-    font-family: 'Gilroy-normal';
+    font-family: 'Gilroy';
 
     h1,
     h2,

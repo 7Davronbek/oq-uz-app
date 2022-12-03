@@ -26,7 +26,7 @@ export default {
     padding: 30px 0;
 
     .myBtn {
-        font-family: 'Gilroy-normal';
+        font-family: 'Gilroy';
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
