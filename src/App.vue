@@ -6,6 +6,7 @@
   <FourSteps />
   <AboutApp />
   <Constructor />
+  <ReadyToMove />
   <div class="vh-100"></div>
 
   <!-- <router-view /> -->
@@ -17,6 +18,7 @@ import Header from './components/Header.vue';
 import FourSteps from './components/FourSteps.vue';
 import AboutApp from './components/AboutApp.vue';
 import Constructor from './components/Constructor.vue';
+import ReadyToMove from './components/ReadyToMove.vue';
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     Header,
     FourSteps,
     AboutApp,
-    Constructor
+    Constructor,
+    ReadyToMove
   }
 }
 </script>
