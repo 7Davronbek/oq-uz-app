@@ -7,7 +7,7 @@
   <AboutApp />
   <Constructor />
   <ReadyToMove />
-  <div class="vh-100"></div>
+  <Footer />
 
   <!-- <router-view /> -->
 </template>
@@ -19,6 +19,7 @@ import FourSteps from './components/FourSteps.vue';
 import AboutApp from './components/AboutApp.vue';
 import Constructor from './components/Constructor.vue';
 import ReadyToMove from './components/ReadyToMove.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
@@ -28,7 +29,8 @@ export default {
     FourSteps,
     AboutApp,
     Constructor,
-    ReadyToMove
+    ReadyToMove,
+    Footer
   }
 }
 </script>
