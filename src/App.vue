@@ -5,6 +5,7 @@
   <Header />
   <FourSteps />
   <AboutApp />
+  <Constructor />
   <div class="vh-100"></div>
 
   <!-- <router-view /> -->
@@ -15,6 +16,7 @@ import Navbar from './components/Navbar.vue';
 import Header from './components/Header.vue';
 import FourSteps from './components/FourSteps.vue';
 import AboutApp from './components/AboutApp.vue';
+import Constructor from './components/Constructor.vue';
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     Navbar,
     Header,
     FourSteps,
-    AboutApp
+    AboutApp,
+    Constructor
   }
 }
 </script>
