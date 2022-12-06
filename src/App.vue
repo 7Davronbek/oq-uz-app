@@ -5,6 +5,7 @@
   <Header />
   <FourSteps />
   <AboutApp />
+  <Benefits />
   <Constructor />
   <ReadyToMove />
   <Footer />
@@ -20,6 +21,7 @@ import AboutApp from './components/AboutApp.vue';
 import Constructor from './components/Constructor.vue';
 import ReadyToMove from './components/ReadyToMove.vue';
 import Footer from './components/Footer.vue';
+import Benefits from './components/Benefits.vue';
 
 export default {
   name: 'App',
@@ -30,7 +32,8 @@ export default {
     AboutApp,
     Constructor,
     ReadyToMove,
-    Footer
+    Footer,
+    Benefits
   }
 }
 </script>
